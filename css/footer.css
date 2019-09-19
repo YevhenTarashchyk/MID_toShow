@@ -1,0 +1,40 @@
+footer {
+	background-color: var(--main_BG-color);
+}
+.footer__wrapper {
+	position: relative;
+	padding: 50px;
+	width: 100%;
+	min-height: 300px;
+}
+.footer__list li {
+	margin-top: 16px;
+}
+
+.footer__diamond {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 80px;
+    height: 80px;
+	background: #fff;
+	transform: translate(-50%,-50%) rotate(45deg);
+}
+.diamond__btn .fa-angle-up {
+	color: #000;
+	transform: rotate(-45deg);
+}
+.diamond__btn:hover {
+	background: var(--main_BG-color);
+	box-shadow: 0px 0px 13px 7px rgba(216,150,43,0.89);
+}
+.diamond__btn:hover .fas {
+	color: var(--title_text-color);
+}
+
+
+@media (max-width: 768px) {
+	.footer__row {
+		text-align: center;
+	}
+}
